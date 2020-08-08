@@ -4,18 +4,18 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 import Home from "./screens/Home";
 
-const Tab = createBottomTabNavigator();
+const bottomTabNavigator = createBottomTabNavigator();
 
 export default () => {
   return (
     <NavigationContainer>
-      <Tab.Navigator>
-        <Tab.Screen
+      <bottomTabNavigator.Navigator>
+        <bottomTabNavigator.Screen
           name="Home"
           component={Home}
           initialParams={{ name: "Daniel" }}
         />
-      </Tab.Navigator>
+      </bottomTabNavigator.Navigator>
     </NavigationContainer>
   );
 };
