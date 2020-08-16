@@ -15,3 +15,5 @@ export const NameText = styled.Text`
   text-align: center;
   color: #fff;
 `;
+
+export const StartButton = styled.Button``;

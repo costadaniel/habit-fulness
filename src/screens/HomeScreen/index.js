@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, StyledText } from "./styles";
 
-export default function Home({ route }) {
+export default function HomeScreen({ route }) {
   const { name } = route.params;
 
   return (
